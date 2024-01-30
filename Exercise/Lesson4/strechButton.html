@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <style>
+        .s-button{
+            color: white;
+            background-color: green;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border: none;
+        }
+        .s-button:hover{
+            transform: scale(1.1);
+            transition: transform 0.5s ease-in-out;
+        }
+        .sh-button{
+            perspective: 500px;
+            color: white;
+            background-color: green;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border: none;
+            box-shadow: 1px 1px 10px black;
+        }
+        .sh-button:hover{
+            margin-top: 3px;
+            margin-left: 3px;
+            box-shadow: none;
+            transition: margin-top 0.5s,
+            margin-left 0.5s,
+            box-shadow;
+        }
+        .c{
+            color: white;
+            background-color: green;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border: none;
+        }
+        .c:hover{
+            transform: scaleX(1.1);
+            transition: transform 0.5s ease-in-out;
+        }
+    </style>
+    <body>
+        <button class="s-button">
+            Strech
+        </button>
+        <button class="sh-button">
+            Shadow
+        </button>
+        <br>
+        <br>
+        <button class="c">
+            One
+        </button>
+        <button class="c">
+            Two
+        </button>
+        <button class="c">
+            Three
+        </button>
+    </body>
+</html>
