@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <style>
+            p{
+                font-family: Arial;
+                /*Since all the paras where arial, we target all paras with this tag in place of writing it seperately for each class.*/
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .video-title{
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 18px;
+                /*Setting width to create new line*/
+                width: 300px;
+                /*Setting distance between lines in the same paragraph*/
+                line-height: 24px;
+                /*Setting up distance between 2 paragraphs*/
+                margin-bottom: 5px;
+            }
+            .video-data{
+                margin-top: 0px;
+                font-family: Arial;
+                font-size: 12px;
+                color: rgba(45, 41, 41, 0.925);
+                margin-bottom: 20px;
+            }
+            .video-author{
+                font-family: Arial;
+                color:black;
+                font-size: 14px;
+                margin-bottom: 20px; 
+            }
+            .video-about{
+                width: 300;
+                /*Width is set to 300 to create squaure effect*/
+                font-family: Arial;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            /*Selector specificity: Note that in the example above we saw that both the p and class selectors target the same entity yet the properties in class selector is preffered over the properties of p selector. This is because CSS follows selector epecificiy,hence will prefer the selector which is more specific.*/
+        </style>
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai
+        </p>
+        <p class="video-data">
+            <!--HTML Entity-->
+            3.4M views &#183; 6 months ago 
+        </p>
+        <p class="video-author">
+            Marques Brownlee &#10003;
+        </p>
+        <p class="video-about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consectetur ipsam accusantium distinctio praesentium, dignissimos architecto accusamus tempore nobis commodi ipsa harum numquam maxime sequi pariatur aspernatur suscipit, veritatis placeat!
+        </p>
+    </body>
+</html>
