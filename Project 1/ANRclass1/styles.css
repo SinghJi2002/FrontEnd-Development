@@ -1,0 +1,26 @@
+.container{
+    height: 700px;
+    background-color: aqua;
+    border: 1px solid blue;
+   display: grid;
+   grid-template-rows: repeat(4 ,1fr);
+   grid-template-columns: repeat(3 ,1fr);
+   grid-gap: 10px;
+}
+.box{
+    border: 1px solid yellowgreen;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+
+}
+#box1{
+   /* grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;*/
+
+/* ye 4 ko hata ke hum ek line me code likh sakte hai with help of grid area*/
+grid-area: 1/1/4/3;
+
+}
