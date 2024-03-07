@@ -1,0 +1,39 @@
+.whole-page{
+    display: grid;
+    grid-template-rows: 30px 35px 30px;
+    row-gap: 10px;
+}
+
+input::placeholder{
+    padding-left: 5px;
+}
+
+.name-detail{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    column-gap: 5px;
+}
+.first-name{
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.last-name{
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.email{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.sign-up{
+    background-color: rgb(0, 115, 255);
+    color: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border-width: 1px;
+}

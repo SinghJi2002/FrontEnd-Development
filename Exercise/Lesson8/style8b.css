@@ -1,0 +1,15 @@
+
+
+.Disclaimer{
+    width: 200px;
+    display:inline-block;
+    vertical-align: middle  ;
+}
+.yes{
+    height: 20px;
+    vertical-align: middle;
+}
+.no{
+    height: 20px;
+    vertical-align: middle;
+}

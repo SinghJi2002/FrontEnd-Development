@@ -1,0 +1,10 @@
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.search-bar{
+    max-width: 200px;
+    margin: 0px;
+    border-radius: 10px;
+    border-width: 1px;
+}

@@ -1,7 +1,166 @@
-.pic1{
+body{
+    margin: 0px;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+}
+.leftEnd{
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+.threeline{
+    width: 25px;
+    margin-left: 10px;
+}
+.youtube-logo{
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 2px;
+    width: 100px;
+}
+.centreEnd{
+    flex:1;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*Max-Width is used to control how much the section expands when size of browser is changed*/
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    flex: 1;
+    height: 22.5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(186, 185, 185);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 15px rgba(0,0,0,0.05);
+}
+.search-bar::placeholder{
+    font-family: "Roboto",arial;
+    font-size: 16px;
+    
+}
+.search-button{
+    height: 26px;
+    width: 40px;
+    margin-left: -2px;
+    margin-right: 10px;
+    background-color: rgb(248, 246, 246);
+    border-width: 0.5px;
+}
+.search-button-pic{
+    width: 20px;
+    height: 20px;
+    border-width: 0px;
+}
+.search-voice{
+    height: 40px;
+    width: 42px;
+    border-radius: 30px;
+    border-width: 0px;
+}
+.search-voice-pic{
+    width: 20px;
+    height: 20px;
+    border-width: 0px;
+    margin-left: -1px;
+}
+
+.rightEnd{
+    display: flex;
     width: 300px;
+    align-items: center;
+    vertical-align: center;
+}
+.upload-button{
+    width: 30px;
+    margin-right: 40px;
+}
+.other-apps{
+    width: 30px;
+    margin-right: 40px;
+}
+.notification{
+    width: 30px;
+    margin-right: 40px;
+}
+.my-channel{
+    width: 30px;
+}
+
+
+
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.video{
+    vertical-align: top;
+    margin-right: 10px;
+}
+.main-post-pic{
+    /*width: 300px;
     height: 300px;
     object-fit: cover;
     object-fit: contain;
-    border-width: 2px;
+    border-width: 2px
+    Above code is just a demonstration*/
+    width: 100%;
+    /*Setting the width to 300px and not defining anything else automatically sets the height of the image to ensure there is no loss of image properties*/
 }
+p{
+    font-family:"Roboto",Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.pic-text-info-grid{
+    display: grid;
+    grid-template-columns: 50px 250px;
+    margin-top: 2px;
+}
+.pic-info{
+    vertical-align: top;
+}
+.channel-pic{
+    width: 40px;
+    border-radius: 100px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.text-info{
+    line-height: 20px;
+    width: 250px;
+}
+.video-title{
+    width: 250px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.video-author{
+    opacity: 0.8;
+    font-size: 12px;
+}
+.video-info{
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
