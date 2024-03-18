@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Home Control</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My Smart Home</h1>
+    <div class="device">
+      <h3>Fan</h3>
+      <div class="fan-control">
+        <button id="fan-off">Off</button>
+        <button id="fan-low">Low</button>
+        <button id="fan-medium">Medium</button>
+        <button id="fan-high">High</button>
+      </div>
+    </div>
+    <div class="device">
+      <h3>Bulb</h3>
+      <div class="bulb-control">
+        <button id="bulb-on">On</button>
+        <button id="bulb-off">Off</button>
+      </div>
+    </div>
+    <div class="device">
+      <h3>LED</h3>
+      <div class="led-control">
+        <input type="color" id="led-color">
+      </div>
+    </div>
+    <div class="device">
+      <h3>Air Conditioner</h3>
+      <div class="ac-control">
+        <button id="ac-on">On</button>
+        <button id="ac-off">Off</button>
+        <input type="number" id="ac-temp" min="16" max="28" value="20">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

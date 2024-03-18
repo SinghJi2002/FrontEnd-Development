@@ -1,0 +1,13 @@
+let a=document.body.children
+let b=a[1]
+c=b.children
+c[0].style.color="white"
+c[0].style.color="black"
+c[1].style.color="yellow"
+c[1].style.backgroundColor="blue"
+c[2].style.fontcolor="red"
+c[2].style.backgroundColor="yellow"
+c[3].style.fontcolor="red"
+c[3].style.backgroundColor="red"
+c[4].style.fontcolor="red"
+c[4].style.backgroundColor="orange"
