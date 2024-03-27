@@ -90,7 +90,7 @@ undefined
 
 //We can check the attributes available in class like this.
 document.querySelector(".mainbox").attributes
-NamedNodeMap {0: class, class: class, length: 1}
+//NamedNodeMap {0: class, class: class, length: 1}
 
 
 
@@ -113,7 +113,7 @@ document.designMode="On"
 //Now there a data attribute, in each tag that can be used to store data about that tag. Nothing important, just letting you know.
 //We can access the contents of data attributes by
 document.querySelector('.mainbox').dataset
-DOMStringMap {}
+//DOMStringMap {}
 
 
 
@@ -190,7 +190,7 @@ undefined
 
 //If want a list of all the classes a html element has, we use classlist
 document.querySelector(".mainbox").classList
-DOMTokenList['mainbox', value: 'mainbox']
+//DOMTokenList['mainbox', value: 'mainbox']
 
 
 

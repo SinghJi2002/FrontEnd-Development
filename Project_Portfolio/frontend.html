@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c51e7d2e6c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navigation">
+            <img src="assets/images/logo.png" alt="">
+            <ul>
+                <li><a href="">Home</li></a>
+                <li><a href="">About</li></a>
+                <li><a href="">Services</li></a>
+                <li><a href="">Projects</li></a>
+                <li><a href="">Contact Us</li></a>
+            </ul>
+        </div>
+        <div class="media">
+            <div class="header-text">
+                <p>ML Engineer || FrontEnd Developer || Data Scientist</p>
+                <h1>Hii!! I am <span class="name">Ashutosh Kumar Singh</span><br>from India </h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="left">
+                <img src="assets/images/about.png" alt="about" class="about">
+            </div>
+            <div class="right">
+                <div class="title">
+                    <h1>About Me</h1>
+                </div>
+                <div class="subtitle">
+                    Brings technical expertise in deep learning, machine learning, deep reinforcement, and computer vision. Can also handle front end development and analytics. Known for effective communication, interpersonal skills, and a proactive, independent work approach. Offers a unique blend of administrative acumen and a tech-savvy mindset, ensuring optimal support in dynamic work environments.
+                </div>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-content active-tab" id="skill">
+                    <ul>
+                        <li><span>Machine Learning</span><br>Designing Predictive Models</li>
+                        <li><span>Data Science</span><br>Analysing and gaining insights from data</li>
+                        <li><span>FrontEnd Web Developer</span><br>Design Web Sites</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span>Machine Learning Intern</span><br>IoT Labs,KIIT</li>
+                        <li><span>Finance Intern</span><br>Kraya&Kuber,KIIT</li>
+                        <li><span>Content Writer</span><br>Khwaab,KIIT</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>Primary Schooling(96.8%)</span><br>Jusco School South Park</li>
+                        <li><span>High Schooling(92.8%)</span><br>DAV Public School</li>
+                        <li><span>Bachelor's Degree(Pursueing)(CGPA-8.94)</span><br>Kalinga Institute Of Industrial
+                            Technology</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel labore suscipit porro quaerat, odit
+                        magnam enim, earum eaque, natus soluta fuga dolores nisi hic minus non veniam adipisci ex autem.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Data Science</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel labore suscipit porro quaerat, odit
+                        magnam enim, earum eaque, natus soluta fuga dolores nisi hic minus non veniam adipisci ex autem.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front End Developer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel labore suscipit porro quaerat, odit
+                        magnam enim, earum eaque, natus soluta fuga dolores nisi hic minus non veniam adipisci ex autem.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/images/project1.png" class="work-images">
+                    <div class="layer">
+                        <h3>Violence Detection Using ML</h3>
+                        <p>
+                            The model takes videos as an input, it analyses those videos, and monitors the occurrence of any violent action. It can be used for realtime use cases too.
+                        </p>
+                        <a href="https://github.com/SinghJi2002/Projects/tree/dbe329265c419cdbac15aa1e632a5c6007be8bb4/Real%20Time%20Violence%20Detection"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/project2.png" class="work-images">
+                    <div class="layer">
+                        <h3>Telemedicine Recommendation System</h3>
+                        <p>
+                            This is an user interactive model. It takes input from the user, where user can write all possible problems he/she is facing. This then predicts a list of possible diseases the user might be suffering. It further suggests medicines and lifestyle precaution to be followed
+                        </p>
+                        <a href="https://github.com/SinghJi2002/Projects/tree/46e69342866f6039a64295e3e49f7968366b25f6/Telemedicine"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/project3.png" class="work-images">
+                    <div class="layer">
+                        <h3>AI Hand Gesture Recognition System</h3>
+                        <p>
+                            The model recieves live feed from the camera of the user where it detects the hand or facial gestures shown by the user in realtime.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="work-list2">
+                <div class="work">
+                    <img src="assets/images/project4.jpg" class="work-images">
+                    <div class="layer">
+                        <h3>Crime Density Prediction Model</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatibus sunt harum esse
+                            alias ipsum eius eaque laudantium ab, necessitatibus molestias veniam dolores quidem impedit
+                            maxime neque. Nesciunt, corporis animi!
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/project5.jpg" class="work-images">
+                    <div class="layer">
+                        <h3>Server Anomaly Detection Model</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui repellat aspernatur aut.
+                            Aperiam illum debitis laborum consequuntur cumque consequatur asperiores maiores quaerat
+                            libero laboriosam, adipisci quo nemo fugiat eos tempore?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/project6.png" class="work-images">
+                    <div class="layer">
+                        <h3>AI Hand Gesture Recognition System</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui molestias aliquam odio.
+                            Voluptate, a voluptas quo sint, aut, ipsam adipisci placeat ab aperiam in repudiandae
+                            tempora doloribus. Ipsa, blanditiis?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="work-list3">
+                <div class="work">
+                    <img src="assets/images/project1.png" class="work-images">
+                    <div class="layer">
+                        <h3>Violence Detection Using ML</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatibus sunt harum esse
+                            alias ipsum eius eaque laudantium ab, necessitatibus molestias veniam dolores quidem impedit
+                            maxime neque. Nesciunt, corporis animi!
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/project2.png" class="work-images">
+                    <div class="layer">
+                        <h3>Telemedicine Recommendation System</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui repellat aspernatur aut.
+                            Aperiam illum debitis laborum consequuntur cumque consequatur asperiores maiores quaerat
+                            libero laboriosam, adipisci quo nemo fugiat eos tempore?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/project3.png" class="work-images">
+                    <div class="layer">
+                        <h3>AI Hand Gesture Recognition System</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui molestias aliquam odio.
+                            Voluptate, a voluptas quo sint, aut, ipsam adipisci placeat ab aperiam in repudiandae
+                            tempora doloribus. Ipsa, blanditiis?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-information">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>ashutoshkumarsingh2002@outlook.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8825161086</p>
+                    <div class="social-icons">
+                        <span><a href=""><i class="fa-brands fa-instagram"></i>__Singh_Ji__</a></span>
+                        <span><a href=""><span><i class="fa-brands fa-x-twitter"></i>___Singh_Ji____</a></span>
+                        <span><a href=""><span><i class="fa-brands fa-hashnode"></i>SinghJi2002</a></span>
+                        <span><a href=""><span><i class="fa-brands fa-linkedin"></i>Ashutosh Kumar Singh</a></span>
+                        <span><a href=""><span><i class="fa-solid fa-terminal"></i>A_K_S_2002</a></span>
+                    </div>
+                    <a href="C:\Users\ashut\Downloads\_Resume_Ashutosh_Kumar_Singh_" download class="button downloadcv">Download CV</a>
+                </div>
+                <div class="contact-form">
+                    <input type="text" class="Name" placeholder="Your Name" required>
+                    <input type="text" class="email" placeholder="Your Email" required>
+                    <textarea class="Message" placeholder="Your Messages"></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="copyright">
+        Copyright <i class="fa-solid fa-copyright"></i> Ashutosh. Made with <i class="fa-solid fa-heart heart"></i>
+    </p>
+
+    
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-content")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")//event is attached to onclick. so whichever active-link is clicked, this function add active-tab to class list of that tag.
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+</body>
+
+</html>
