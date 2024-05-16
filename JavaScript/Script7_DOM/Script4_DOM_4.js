@@ -33,7 +33,7 @@ document.querySelector(".container").tagName
 
 document.querySelector(".container").nodeName
 'DIV'
-//The difference between nodeName and tagName is that node name is aplicable for all elements and non element thing but tag name for elements only
+//The difference between nodeName and tagName is that node name is applicable for all elements and non element thing but tag name for elements only
 
 
 

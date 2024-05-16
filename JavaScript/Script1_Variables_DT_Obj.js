@@ -9,7 +9,7 @@ console.log(typeof(a),typeof(b),typeof(c));
 let d=203;
 console.log(d);
 //There is a difference between let and var. The scope of var is global. The scope of let is block(local).
-//There is another way of declaring variables in JS. We can you const. But once declared, it value cannot be altered.
+//There is another way of declaring variables in JS. We can use const. But once declared, its value cannot be altered.
 const e=10;
 //You have to give a const variable a value at time declaration. Else error is seen.
 //const e; Uncomment and see error
