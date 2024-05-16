@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="colorbox"></div>
+    <div class="form">
+        <h1 class="title" id="title">freeCodeCamp Survey Form</h1>
+        <p id="description" class="description">Thank you for taking the time to help us improve the platform</p>
+        <form action="" id="survey-form" class="survey-form">
+            <label for="name" id="name-label" class="name-label">
+                <p>Name</p>
+                <input type="text" id="name" class="name boxes" name="name" required placeholder="Enter Your Name">
+            </label>
+
+            <label for="mail" id="email-label" class="email-label boxes">
+                <p>Email</p>
+                <input type="email" name="mail" id="email" class="email boxes" required placeholder="Enter Your Email">
+            </label>
+
+            <label for="years" id="number-label" class="number-label">
+                <p>Age</p>
+                <input type="number" name="years" id="number" class="number boxes" required min="18" max="100"
+                    placeholder="Age">
+            </label>
+            <label for="">
+                <p>Which option best describes your current role?</p>
+                <select name="" id="dropdown" class="dropdown boxes">
+                    <option disabled selected value>Select Current Role</option>
+                    <option value="option1">Student</option>
+                    <option value="option2">Full Time Jobber</option>
+                    <option value="option3">Full Time Learner</option>
+                    <option value="option4">Prefer Not To Say</option>
+                    <option value="option5">Others</option>
+                </select>
+            </label>
+            <label for="">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <p><input type="radio" name="gender" value="definately" class="round"> Definately</p>
+                <p><input type="radio" name="gender" value="maybe" class="round"> Maybe</p>
+                <p><input type="radio" name="gender" value="notSure" class="round"> Not Sure</p>
+            </label>
+            <label for="">
+                <p>What is your favorite feature of freeCodeCamp?</p>
+                <select name="" id="favourite" class="favourite boxes">
+                    <option disabled selected value>Select An Option</option>
+                    <option value="option1">Challenges</option>
+                    <option value="option2">Projects</option>
+                    <option value="option3">Community</option>
+                    <option value="option4">Open Source</option>
+                </select>
+            </label>
+            <label>
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <p><input type="checkbox" name="option1" value="Front-End Project" class="round">Front-End Project</p>
+                <p><input type="checkbox" name="option2" value="Back-End Project" class="round">Back-End Project</p>
+                <p><input type="checkbox" name="option3" value="Data Visualisation" class="round">Data Visualisation</p>
+                <p><input type="checkbox" name="option4" value="Challenges" class="round">Challenges</p>
+                <p><input type="checkbox" name="option5" value="Open Source Community" class="round">Open Source
+                    Community</p>
+                <p><input type="checkbox" name="option6" value="Gitters help room" class="round">Gitters help room</p>
+                <p><input type="checkbox" name="option7" value="Videos" class="round">Videos</p>
+                <p><input type="checkbox" name="option8" value="City Meetups" class="round">City Meetups</p>
+                <p><input type="checkbox" name="option9" value="Wiki" class="round">Wiki
+                <p><input type="checkbox" name="option10" value="Forum" class="round">Forum</p>
+                <p><input type="checkbox" name="option11" value="Additional Courses" class="round">Additional Courses
+                </p>
+            </label>
+            <label>
+                <p>Any comments or suggestions?</p>
+                <textarea name="" id="" rows="10" cols="88" placeholder="Enter Your Comments Here..."></textarea>
+            </label>
+            <label for="">
+                <input type="submit" id="submit" class="submit">
+            </label>
+        </form>
+    </div>
+</body>
+
+</html>

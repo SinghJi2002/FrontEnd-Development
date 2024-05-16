@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::placeholder{
+    padding: 4px 8px;
+    opacity: 0.8;
+}
+.colorbox{
+    background-color: #3a37e7;
+    top: 0;
+    height: 237.5%;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 0;
+}
+.form{
+    position: relative;
+}
+body{
+    text-align: center;
+    background-image: url(images/survey-form-background.jpeg);
+    background-size: cover;
+    color: white;
+    z-index: 1;
+}
+.title{
+    margin-top: 40px;
+    font-size: 35px;
+}
+.description{
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.survey-form{
+    background-color: #2a2947;
+    color: white;
+    opacity: 1;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 50px 50px;
+    text-align: left;
+}
+.survey-form label{
+    display: block;
+    margin: 20px 0px;
+}
+.survey-form .boxes{
+    height: 35px;
+    width: 100%;
+}
+.survey-form .number-label{
+    margin-top: 40px;
+}
+.survey-form label p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.submit{
+    background-color: rgb(45, 153, 45);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+}
