@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <script src="https://kit.fontawesome.com/c51e7d2e6c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex flex-row">
+        <div
+            class="leftbar flex flex-col pl-20 pr-4 fixed top-0 bottom-0 left-0 pt-5 text-base bg-black text-white gap-y-4 font-bold md:w-[20%]">
+            <i class="fa-brands fa-x-twitter rounded-full text-3xl hover:bg-white-500"></i>
+            <div class=" text-lg  rounded-xl hover:bg-zinc-900 hover:cursor-pointer p-1 transition-colors duration-300 flex flex-row items-center gap-x-2   ">
+                <i class="fa-solid fa-house"></i> <span class="hidden sm:block">Home</span>
+            </div>
+            <div class="text-lg rounded-xl hover:bg-zinc-900 hover:cursor-pointer p-1 transition-colors duration-300 flex flex-row items-center gap-x-2 ">
+                <i class="fa-solid fa-magnifying-glass"></i> <span class="hidden sm:block">Search</span>
+            </div>
+            <div class="text-lg rounded-xl hover:bg-zinc-900 hover:cursor-pointer p-1 transition-colors duration-300 flex flex-row items-center gap-x-2 ">
+                <i class="fa-regular fa-bell"></i> <span class="hidden sm:block">Notifications</span>
+            </div>
+            <div class="text-lg rounded-xl hover:bg-zinc-900 hover:cursor-pointer p-1 transition-colors duration-300 flex flex-row items-center gap-x-2 ">
+                <i class="fa-regular fa-envelope "></i> <span class="hidden sm:block">Messages</span>
+            </div>
+            <div class="text-lg rounded-xl hover:bg-zinc-900 hover:cursor-pointer p-1 transition-colors duration-300 flex flex-row items-center gap-x-2 ">
+                <i class="fa-regular fa-square"></i> <span class="hidden sm:block">Grok</span>
+            </div>
+            <div class="text-lg rounded-xl hover:bg-zinc-900 hover:cursor-pointer p-1 transition-colors duration-300 flex flex-row items-center gap-x-2 ">
+                <i class="fa-sharp fa-solid fa-users"></i> <span class="hidden sm:block">Communities</span>
+            </div>
+            <div class="text-lg rounded-xl hover:bg-zinc-900 hover:cursor-pointer p-1 transition-colors duration-300 flex flex-row items-center gap-x-2 ">
+                <i class="fa-regular fa-user"></i> <span class="hidden sm:block">Profile</span>
+            </div>
+            <div class="text-lg rounded-xl hover:bg-zinc-900 hover:cursor-pointer p-1 transition-colors duration-300 flex flex-row items-center gap-x-2 ">
+                <i class="fa-solid fa-ellipsis"></i> <span class="hidden sm:block">More</span>
+            </div>
+            <div
+                class="flex items-center justify-center w-24 h-10 bg-blue-500 rounded-full hover:bg-blue-600 hover:cursor-pointer transition-colors duration-300">
+                <i class="fa-brands fa-twitter text-white"> Tweet</i>
+            </div>
+        </div>
+
+
+
+        <div
+            class="middleware ml-[20%] mr-[32%] bg-black text-white min-h-screen border border-gray-400 border-opacity-3 min-w-[562px]">
+            <div
+                class="topbar flex flex-row gap-x-12 fixed top-0 w-[47.9%] justify-center pl-2 pr-2 bg-black text-white border h-11  border-gray-400">
+                <p class=" hover:bg-zinc-800 pr-2 pl-2 transition-colors duration-400 pt-2 hover:cursor-pointer">For you
+                </p>
+                <p class=" hover:bg-zinc-800 pr-2 pl-2 transition-colors duration-400 pt-2 hover:cursor-pointer">
+                    Following</p>
+                <p class=" hover:bg-zinc-800 pr-2 pl-2 transition-colors duration-400 pt-2 hover:cursor-pointer">X
+                    Finance</p>
+                <p class=" hover:bg-zinc-800 pr-2 pl-2 transition-colors duration-400 pt-2 hover:cursor-pointer">
+                    Computer Science</p>
+            </div>
+            <div class="main">
+                <div class="postBox mt-[40px] flex flex-row gap-x-3 border  border-gray-400 p-5 h-[150px]">
+                    <img src="src/images/pp.png" alt="" class=" w-8 h-8 rounded-full">
+                    <div class="flex flex-col gap-y-12">
+                        <input type="text" name="" id="" placeholder="What is happening?" class=" bg-transparent outline-none text-2xl">
+                        <div class="flex flex-row gap-x-[230px] text-lg">
+                            <div class="flex flex-row gap-x-3">
+                                <i class="fa-regular fa-image hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-gift hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-list hover:cursor-pointer"></i>
+                                <i class="fa-regular fa-face-smile hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <i class="fa-solid fa-location-dot hover:cursor-pointer"></i>
+                            </div>
+                            <button
+                                class="bg-blue-500 rounded-lg pl-4 pr-4 hover:bg-blue-600 transition-colors duration-300">Post</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-3 border-b">
+                    <div class="creator flex flex-row gap-x-2 items-start">
+                        <img src="src/images/pp.png" alt="" class="w-10 h-10 rounded-full hover:cursor-pointer">
+                        <div class="flex flex-col gap-y-4">
+                            <div class="creater-name-handle flex flex-row gap-x-2 items-center">
+                                <p class="name font-bold text-base hover:underline hover:cursor-pointer">Ashutosh Kumar Singh</p>
+                                <p class="handle text-gray-500 text-sm hover:cursor-pointer">@SinghJi2002</p>
+                            </div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nihil, quas, minus
+                                quibusdam
+                                nesciunt tempora eos tenetur corporis incidunt, alias repellendus veniam sunt neque ea
+                                pariatur
+                                culpa facilis doloribus temporibus.
+                            </div>
+                            <div class=" flex flex-row justify-between">
+                                <i class="fa-regular fa-comment hover:cursor-pointer"></i>
+                                <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-retweet hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-chart-simple hover:cursor-pointer"></i>
+                                <i class="fa-regular fa-bookmark hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-arrow-up-from-bracket hover:cursor-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-3 border-b">
+                    <div class="creator flex flex-row gap-x-2 items-start">
+                        <img src="src/images/pp.png" alt="" class="w-10 h-10 rounded-full hover:cursor-pointer">
+                        <div class="flex flex-col gap-y-4">
+                            <div class="creater-name-handle flex flex-row gap-x-2 items-center">
+                                <p class="name font-bold text-base hover:underline hover:cursor-pointer">Ashutosh Kumar Singh</p>
+                                <p class="handle text-gray-500 text-sm hover:cursor-pointer">@SinghJi2002</p>
+                            </div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nihil, quas, minus
+                                quibusdam
+                                nesciunt tempora eos tenetur corporis incidunt, alias repellendus veniam sunt neque ea
+                                pariatur
+                                culpa facilis doloribus temporibus.
+                            </div>
+                            <div class=" flex flex-row justify-between">
+                                <i class="fa-regular fa-comment hover:cursor-pointer"></i>
+                                <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-retweet hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-chart-simple hover:cursor-pointer"></i>
+                                <i class="fa-regular fa-bookmark hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-arrow-up-from-bracket hover:cursor-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-3 border-b">
+                    <div class="creator flex flex-row gap-x-2 items-start">
+                        <img src="src/images/pp.png" alt="" class="w-10 h-10 rounded-full hover:cursor-pointer">
+                        <div class="flex flex-col gap-y-4">
+                            <div class="creater-name-handle flex flex-row gap-x-2 items-center">
+                                <p class="name font-bold text-base hover:underline hover:cursor-pointer">Ashutosh Kumar Singh</p>
+                                <p class="handle text-gray-500 text-sm hover:cursor-pointer">@SinghJi2002</p>
+                            </div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nihil, quas, minus
+                                quibusdam
+                                nesciunt tempora eos tenetur corporis incidunt, alias repellendus veniam sunt neque ea
+                                pariatur
+                                culpa facilis doloribus temporibus.
+                            </div>
+                            <div class=" flex flex-row justify-between">
+                                <i class="fa-regular fa-comment hover:cursor-pointer"></i>
+                                <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-retweet hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-chart-simple hover:cursor-pointer"></i>
+                                <i class="fa-regular fa-bookmark hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-arrow-up-from-bracket hover:cursor-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-3 border-b">
+                    <div class="creator flex flex-row gap-x-2 items-start">
+                        <img src="src/images/pp.png" alt="" class="w-10 h-10 rounded-full hover:cursor-pointer">
+                        <div class="flex flex-col gap-y-4">
+                            <div class="creater-name-handle flex flex-row gap-x-2 items-center">
+                                <p class="name font-bold text-base hover:underline hover:cursor-pointer">Ashutosh Kumar Singh</p>
+                                <p class="handle text-gray-500 text-sm hover:cursor-pointer">@SinghJi2002</p>
+                            </div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nihil, quas, minus
+                                quibusdam
+                                nesciunt tempora eos tenetur corporis incidunt, alias repellendus veniam sunt neque ea
+                                pariatur
+                                culpa facilis doloribus temporibus.
+                            </div>
+                            <div class=" flex flex-row justify-between">
+                                <i class="fa-regular fa-comment hover:cursor-pointer"></i>
+                                <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-retweet hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-chart-simple hover:cursor-pointer"></i>
+                                <i class="fa-regular fa-bookmark hover:cursor-pointer"></i>
+                                <i class="fa-solid fa-arrow-up-from-bracket hover:cursor-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+        <div class="rightBar bg-black flex flex-col w-[32%] fixed top-0 bottom-0 right-0 pt-2 pr-5 pl-2">
+            <input type="text" class="w-60 h-8 p-4 rounded-full placeholder-primary outline-none bg-gray-800"
+                placeholder="Search..">
+            <div class="subscribe mt-5 border border-solid border-white border-1 p-3 rounded-lg border-opacity-30">
+                <p class="title text-white font-bold text-xl mb-2">Subscribe to Premium</p>
+                <p class="subtitle text-white">Subscribe to unlock new features and if eligible, recieve a share of
+                    ads
+                    revenue</p>
+                <button
+                    class="text-white rounded-2xl mt-3 bg-blue-500 outline-none w-24 h-8 hover:bg-blue-600 transition-colors duration-300">Subscribe</button>
+            </div>
+
+            <div class="recent border border-solid border-1 border-opacity-60 rounded-lg p-2 border-gray-500 mt-3">
+                <p class="title text-white text-xl font-bold mb-5">What's Happening</p>
+                <div
+                    class="profile flex flex-row hover:bg-zinc-900 p-1 rounded-md transition:colors duration-200 hover:cursor-pointer">
+                    <img src="src/images/wwe_speed.jpg" alt="" class="w-28 h-20 rounded-xl">
+                    <div class="ml-2 ">
+                        <p class="text-white text-sm font-bold">WWE Speed</p>
+                        <p class="text-white text-xs text-opacity-70">Wrestling| Every Wednesday . LIVE</p>
+                    </div>
+                </div>
+                <div
+                    class="flex text-white flex-col mt-4 hover:bg-zinc-900 p-1 rounded-md transition:colors duration-200 hover:cursor-pointer">
+                    <p class=" text-xs text-gray-400">Sport . Trending</p>
+                    <p class=" text-base">Chokli</p>
+                    <p class="text-sm text-gray-400">Trending with <span
+                            class=" text-blue-400 hover:underline transition-all duration-200">#haarcb</span> , <span
+                            class=" text-blue-400 hover:underline transition-all duration-200">#Eliminator</span></p>
+                </div>
+            </div>
+            <div class=" text-white border rounded-lg border-gray-400 border-1 border-opacity-60 p-2 mt-3">
+                <p class="text-xl font-bold mb-2">Who to follow</p>
+                <div
+                    class=" flex flex-row hover:bg-zinc-900 p-1 rounded-md transition:colors duration-200 hover:cursor-pointer">
+                    <img src="src/images/nani.jpg" alt="" class=" w-12 h-12 rounded-full mr-2">
+                    <div class=" flex flex-col">
+                        <p>Nani</p>
+                        <p>@luisnani</p>
+                    </div>
+                    <button class=" bg-white h-6 w-20 text-black rounded-full ml-24">Follow</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

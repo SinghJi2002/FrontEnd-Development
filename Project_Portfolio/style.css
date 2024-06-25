@@ -16,8 +16,9 @@ body{
     width:100%;
     position: relative;
     height: 100vh;
-    background-image: url('assets/images/profile.png');
+    background-image: url('assets/images/profile.jpeg');
     background-size: cover;
+
 }
 .navigation{
     display: flex;
@@ -64,6 +65,9 @@ body{
     margin-top: 60px;
     margin-left: 5.5%;
     margin-right: 10%;
+    background-color: black;
+    padding:30px;
+    border-radius: 20px;
 }
 .name{
     color: red;
@@ -255,6 +259,36 @@ body{
     margin-top: 50px;
 }
 .work-list3{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+.work-list4{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+.work-list5{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+.work-list6{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+.work-list7{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+.work-list8{
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     grid-gap: 30px;
